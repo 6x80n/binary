@@ -135,7 +135,7 @@ int is_expired() {
     time_t now;
     double seconds;
     expiry_date.tm_year = 2024 - 1900;
-    expiry_date.tm_mon = 11;
+    expiry_date.tm_mon = 8;
     expiry_date.tm_mday = 12;
 
     time(&now);
