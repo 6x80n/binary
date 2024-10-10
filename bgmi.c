@@ -222,7 +222,7 @@ int main(int argc, char *argv[]) {
     duration = atoi(argv[3]);
     int threads = atoi(argv[4]);
 
-    const char *encoded_watermark = "VEhJUyBGSUxFIElTIE1BREUgQlkgQEFSUUFNTkFCSQ0KQ09OVEFDVCBAQVJRQU1OQUJJIE9OIFRH";
+    const char *encoded_watermark = "QVRUQUNLIFNUQVJURUQNClRISVMgRklMRSBXQVMgTUFERSBCWSBAQVJRQU1OQUJJIE9OIFRH";
     char decoded_watermark[256];
 
     base64_decode(encoded_watermark, decoded_watermark);
